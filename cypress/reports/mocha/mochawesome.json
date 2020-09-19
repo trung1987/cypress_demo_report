@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-19T13:30:20.774Z",
+    "end": "2020-09-19T13:30:25.531Z",
+    "duration": 4757,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "77e5e254-5577-4243-92d6-779ca74c87a2",
+      "title": "",
+      "fullFile": "cypress\\integration\\demo\\demoRP.js",
+      "file": "cypress\\integration\\demo\\demoRP.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3ccbeee3-dfc1-4a2d-956e-38cdab36eba7",
+          "title": "Demo cypress with report mochawesome",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "go to google",
+              "fullTitle": "Demo cypress with report mochawesome go to google",
+              "timedOut": null,
+              "duration": 1961,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.google.com.vn/\");",
+              "err": {},
+              "uuid": "1c6f80da-bf88-478c-99b1-3e53138a2eb4",
+              "parentUUID": "3ccbeee3-dfc1-4a2d-956e-38cdab36eba7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1c6f80da-bf88-478c-99b1-3e53138a2eb4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1961,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
